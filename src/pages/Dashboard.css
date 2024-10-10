@@ -1,0 +1,17 @@
+.option-section {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.option-section-2 {
+    margin-bottom: 50px;
+}
+.leagueNotFound {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    float: center;
+    color: #555;
+}
+.table-section {
+    margin-bottom: 100px;
+}
