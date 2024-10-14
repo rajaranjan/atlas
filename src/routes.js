@@ -6,6 +6,23 @@ const {
 
 export const groups = [
     {
+		group: 'home',
+		isPublic: true,
+		routes: [
+			{
+				title: 'Home',
+				path: '/',
+				icon: 'home',
+                component: Dashboard,
+                isExact: true,
+                subRoutes: [],
+				isPublic: true,
+				visible: true,
+				index: 1
+            }
+		]
+    },
+	{
 		group: 'dashboard',
 		isPublic: true,
 		routes: [
